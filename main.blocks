@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="l~v;1OfxkbmaTk3M|Upv" x="0" y="0"></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="RA1m1%ql,BH2Z=y__.xY">Player</variable><variable type="KIND_SpriteKind" id="`+a]wfc501ARe(8{Tj8g">Projectile</variable><variable type="KIND_SpriteKind" id="]rRCFx_)PWkXb@b-0su=">Food</variable><variable type="KIND_SpriteKind" id="UQE{NckZ(1dqP=F)Il*i">Enemy</variable><variable id="CLj(t3:XtX}M/IZ)S#eK">mySprite</variable><variable id="0^}qqRm9:cA`+Kl1.Y~N">penguin</variable></variables><block type="pxt-on-start" id="l~v;1OfxkbmaTk3M|Upv" x="30" y="30"><statement name="HANDLER"><block type="variables_set" id="Pix`qu1T%ialdC@p5(qt"><field name="VAR" id="0^}qqRm9:cA`+Kl1.Y~N">penguin</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Ju*V[~*$ap!:/rUM/]=("><value name="img"><shadow type="screen_image_picker" id="8IKLR|(?N@yo-Vil+zto"><field name="img">img`
+. . . f f f f f f f f f f . . . 
+. . f 6 6 6 6 6 6 6 6 6 6 f . . 
+. . f 6 6 6 6 6 6 6 6 6 6 f . . 
+. f 6 6 1 f 6 6 6 6 1 f 6 6 f . 
+. f 6 6 f f 6 6 6 6 f f 6 6 f . 
+. f 6 6 6 4 4 4 4 4 4 6 6 6 f . 
+. f 6 6 6 6 4 4 4 4 6 6 6 6 f . 
+f 6 6 6 6 1 1 1 1 1 1 6 6 6 6 f 
+f 6 6 6 1 1 1 1 1 1 1 1 6 6 6 f 
+f 6 f 1 1 1 1 1 1 1 1 1 1 f 6 f 
+. f f 1 1 1 1 1 1 1 1 1 1 f f . 
+. . f 1 1 1 1 1 1 1 1 1 1 f . . 
+. . f 4 4 4 f f f f 4 4 4 f . . 
+. . . f f f . . . . f f f . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"8IKLR|(?N@yo-Vil+zto"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="ZS-FZr~!4MNHIkbgB~R/"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="spritesaytext" id="u4_@68)R_(l?CDGWgUCo"><mutation xmlns="http://www.w3.org/1999/xhtml" _expanded="0" _input_init="true"></mutation><value name="this"><block type="variables_get" id="o6~R1w.%%FUbQ]Xm4Jh%"><field name="VAR" id="0^}qqRm9:cA`+Kl1.Y~N">penguin</field></block></value><value name="text"><shadow type="text" id="HT]x=}V7(4:P@WbOBn9T"><field name="TEXT">:)</field></shadow></value><value name="timeOnScreen"><shadow type="timePicker" id="UEYk]z+UkM]xLX6cc,}d"><field name="ms">500</field></shadow></value><value name="animated"><shadow type="logic_boolean" id="B=g~z{8HJW#ML=Zy^J,S"><field name="BOOL">FALSE</field></shadow></value></block></next></block></statement></block></xml>
